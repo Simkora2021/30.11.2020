@@ -2,6 +2,12 @@ package com.company;
 
 public class Main {
  private String name = "Mike";
+    public String getName(){
+        return name;
+    }
+    public void setName(String Name){
+        name = Name;
+    }
  private int age = 0 ;
  public int getAge(){
      return age;

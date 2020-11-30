@@ -13,13 +13,13 @@ public class School extends Kindergarten{
         Main main = new Main();
         Kindergarten kindergarten = new Kindergarten();
 
-        System.out.println("Сколько было лет, когда Майк пошёл в садик");
+        System.out.println("Сколько было лет, когда"+ main.getName() + " пошёл в садик");
         System.out.println(kindergarten.getCountTwo());
         kindergarten.incrementCounterTwo();
         kindergarten.incrementCounterTwo();
         kindergarten.incrementCounterTwo();
         kindergarten.incrementCounterTwo();
-        System.out.println("Сколько лет Майку, когда Майка отправляют в школу");
+        System.out.println("Сколько лет Майку, когда"+ main.getName()+ "Майка отправляют в школу");
         System.out.println(kindergarten.getCountTwo());
 
         main.setAge(kindergarten.getCountTwo());
