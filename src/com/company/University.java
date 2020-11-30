@@ -1,11 +1,19 @@
 package com.company;
 
 public class University extends School{
+    private static int countFour = 17;
+
+    public void incrementCounterFour(){
+        countFour++;
+    }
+    public int getCountFour(){
+        return countFour;
+    }
     public static void main(String[] args) {
         Main main = new Main();
         School school = new School();
 
-        System.out.println("Сколько было лет, когда Майк пошёл в школу");
+        System.out.print("Сколько было лет, когда Майк пошёл в школу ");
         System.out.println(school.getCountThree());
         System.out.println("1-й класс окончил");
         school.incrementCounterThree();
@@ -28,7 +36,7 @@ public class University extends School{
         System.out.println("10-й класс окончил");
         school.incrementCounterThree();
         System.out.println("11-й класс окончил");
-        System.out.println("Сколько лет Майку, когда Майк решил поступить в универ");
+        System.out.print("Сколько лет Майку, когда Майк решил поступить в универ ");
         System.out.println(school.getCountThree());
 
         main.setAge(school.getCountThree());

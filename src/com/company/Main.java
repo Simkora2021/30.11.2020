@@ -32,9 +32,13 @@ public int getCount(){
         }
     void goToUniversity(){
         if (age>=17){
-            System.out.println("go to school");
+            System.out.println("go to university");
         }
     }
-
+    void goToWork(){
+        if (age>=22){
+            System.out.println("go to work");
+        }
+    }
     }
 
