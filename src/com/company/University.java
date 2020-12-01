@@ -44,4 +44,10 @@ public class University extends School{
         main.goToUniversity();
 
     }
+    class ExpirienceThink extends ExpirienceConsider{
+        String think(String Think){
+            Think = "Научился мыслить";
+            return Think;
+        }
+    }
 }

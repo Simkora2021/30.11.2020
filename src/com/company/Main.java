@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main {
+public class Main {  // Домашнее обучение
  private String name = "Mike";
     public String getName(){
         return name;
@@ -45,6 +45,12 @@ public int getCount(){
         if (age>=22){
             System.out.println("go to work");
         }
+    }
+    class ExpirienceRead{
+    String read(String Read){
+        Read = "Научился читать";
+        return Read;
+    }
     }
     }
 

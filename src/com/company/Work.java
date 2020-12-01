@@ -25,4 +25,10 @@ public class Work extends University{
         int age = main.getAge();
         main.goToWork();
     }
+    class ExpirienceCognition extends ExpirienceThink{
+        String сognition(String Cognition){
+            Cognition = "Познал всю сущность этого мира";
+            return Cognition;
+        }
+    }
 }

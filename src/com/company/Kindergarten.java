@@ -14,12 +14,7 @@ public class Kindergarten extends Main {
 
     private int mark=8;
     public int getMark(){
-  //      if(mark>6){
-    //        System.out.println("good mark");
-    //    }
-    //    else {
-     //       System.out.println("bad mark");
-     //   }
+
         return mark;
     }
     public void setMark(int Mark){
@@ -48,7 +43,12 @@ Kindergarten kindergarten = new Kindergarten();
     }
 
 
-
+    class ExpirienceWrite extends ExpirienceRead{
+        String write(String Write){
+            Write = "Научился писать";
+            return Write;
+        }
+    }
 
         }
 
