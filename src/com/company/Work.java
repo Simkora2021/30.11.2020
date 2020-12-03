@@ -31,4 +31,11 @@ public class Work extends University{
             return Cognition;
         }
     }
+    public  class AddFriendsFive extends AddFriendsFour{
+
+        @Override
+        public void AddFriends(){
+            System.out.println("осталось 3 верных друга");
+        }
+    }
 }

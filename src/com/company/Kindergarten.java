@@ -3,7 +3,7 @@ import java.lang.reflect.Field;
 
 public class Kindergarten extends Main {
 
-    private static int countTwo = 3;
+    private int countTwo = 3;
 
     public void incrementCounterTwo(){
         countTwo++;
@@ -17,6 +17,7 @@ public class Kindergarten extends Main {
 
         return mark;
     }
+
     public void setMark(int Mark){
         mark = Mark;
     }
@@ -41,18 +42,26 @@ Kindergarten kindergarten = new Kindergarten();
 
 
     }
-
-
-    class ExpirienceWrite extends ExpirienceRead{
-        String write(String Write){
-            Write = "Научился писать";
-            return Write;
+    class ExpirienceConsider extends ExpirienceRead{
+        String Consider(String consider){
+            consider = "Научился считать";
+            return consider;
         }
     }
 
+  public  class AddFriendsTwo extends AddFriends{
+
+      @Override
+       public void AddFriends(){
+
+            System.out.println("+1 друг Миша");
         }
 
 
-
-  //
-//}
+        }
+public class NewFriend extends Friend{
+        public NewFriend(int howManyFriend){
+            super(howManyFriend);
+        }
+}
+    }

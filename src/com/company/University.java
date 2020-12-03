@@ -44,10 +44,18 @@ public class University extends School{
         main.goToUniversity();
 
     }
-    class ExpirienceThink extends ExpirienceConsider{
-        String think(String Think){
-            Think = "Научился мыслить";
-            return Think;
+    class ExpirienceThink extends ExpirienceLearn{
+        String Think(String think){
+            think = "Научился мыслить";
+            return think;
+        }
+    }
+    public  class AddFriendsFour extends AddFriendsThree{
+
+        @Override
+        public void AddFriends(){
+            System.out.println("+23 друга за последний месяц");
+            System.out.println("дружит со всеми по месяцу");
         }
     }
 }

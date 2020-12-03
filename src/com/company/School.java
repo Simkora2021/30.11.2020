@@ -27,10 +27,23 @@ public class School extends Kindergarten{
         main.goToSchool();
 
     }
-    class ExpirienceConsider extends ExpirienceWrite{
-        String сonsider(String Consider){
-            Consider = "Научился считать";
-            return Consider;
+    class ExpirienceLearn extends ExpirienceConsider{
+        String Learn(String learn){
+            learn = "изучил всё необходимое";
+            return learn;
+        }
+    }
+    public  class AddFriendsThree extends AddFriendsTwo{
+
+        @Override
+        public void AddFriends(){
+            System.out.println("+3 друга");
+            System.out.println("перестал общаться с Мишей");
+        }
+    }
+    public class NewFriendThree extends NewFriend{
+        public NewFriendThree(int howManyFriend){
+            super(howManyFriend);
         }
     }
 }

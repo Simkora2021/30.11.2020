@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main {  // Домашнее обучение
+public class Main {  // Start life
  private String name = "Mike";
     public String getName(){
         return name;
@@ -47,10 +47,35 @@ public int getCount(){
         }
     }
     class ExpirienceRead{
-    String read(String Read){
-        Read = "Научился читать";
-        return Read;
+    String Read(String read){
+        read = "Научился читать";
+        return read;
     }
     }
+public class AddFriends{
+
+
+    public void AddFriends(){
+
+        System.out.println("Нет друзей до садика");
+    }
+}
+public class Friend{
+    private int howManyFriend = 0;
+
+    public Friend(int howManyFriend) {
+    }
+
+    public int getHowManyFriend() {
+        return howManyFriend;
+    }
+
+    public void setHowManyFriend(int howManyFriend) {
+        this.howManyFriend = howManyFriend;
+    }
+}
+
+
+
     }
 
