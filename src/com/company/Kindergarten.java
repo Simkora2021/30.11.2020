@@ -64,4 +64,5 @@ public class NewFriend extends Friend{
             super(howManyFriend);
         }
 }
+
     }
