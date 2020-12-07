@@ -15,6 +15,7 @@ public class Kindergarten extends Main {
     private int mark=8;
     public int getMark(){
 
+
         return mark;
     }
 
